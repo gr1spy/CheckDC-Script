@@ -14,9 +14,7 @@ new_num = ['']
 SYSLOG_ADDRESS = '10.34.248.96'
 SYSLOG_PORT = 514
 
-
-# pre_query.txt - сохраняем текущий запрос по доменам
-# query.txt - записываем построчно DC из нового запроса
+# last_query.txt - Предыдущая выгрузка DC, с которой сравниваем текущую
 # new_dc.txt - список новых DC
 # removed_dc.txt - список выведенных DC
 
