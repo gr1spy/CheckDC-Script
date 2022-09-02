@@ -95,7 +95,7 @@ def send_syslog(dc_list):
     syslog.setFormatter(formatter)
 
     log.addHandler(syslog)
-    log.error(dc_list)
+    log.info(dc_list)
 
 
 def rename_files():
