@@ -91,7 +91,7 @@ def send_syslog(dc_list):
     formatter = logging.Formatter(fmt='%(asctime)-4s %(message)s',
                                   datefmt='%Y-%m-%d %H:%M:%S')
     syslog = logging.handlers.SysLogHandler(address=(SYSLOG_ADDRESS, SYSLOG_PORT))
-    syslog.setLevel(logging.NOTSET)
+ #   syslog.setLevel(logging.NOTSET)
     syslog.setFormatter(formatter)
 
     log.addHandler(syslog)
