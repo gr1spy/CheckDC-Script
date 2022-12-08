@@ -11,7 +11,7 @@ old_num = ['']
 new_num = ['']
 
 # Адрес:порт для отправки Syslog
-SYSLOG_ADDRESS = '10.119.248.99'
+SYSLOG_ADDRESS = '192.168.1.1'
 SYSLOG_PORT = 514
 
 
